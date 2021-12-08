@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Home | Dinner Wheel</title>
+    <script src="https://kit.fontawesome.com/8a26d447d3.js" crossorigin="anonymous"></script>
+    <!-- link google font here -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+    <link rel="icon" type="image/png" href="images/favicon.png"> 
 </head>
 <body>
     <header class="clearfix">
-    <div class="row limited">
-        <section class="column small-12">
-        <!-- <img src="" alt="">  add image for wheel -->
-        <h1>Dinner Wheel</h1>
-        <h2>Choose your nightly dinner at random</h2>
-        </section>
-    </div> 
+        <div class="row-limited">
+            <section class="column small">
+                <div><img src="images/background.jpg" alt="Dinner Wheel Logo"></div>
+                <div>
+                    <h1>Dinner Wheel</h1>
+                    <h2>Choose your nightly dinner at random</h2>
+                </div>
+            </section>
+        </div> 
     </header>
 
     <!-- Hamburger button from Pluralsight Creating Page Layouts with CSS -->
-    <nav class="clearfix">
-        <div class="row limited">
+    <nav class="clearfix nav-bar">
+        <div class="row limited nav-container">
         <button id="hamburgerBtn">&#9776;</button> 
-        <ul id="primaryNav">
-            <li class="active"><a href="index.html">Select Dinner</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
-        </ul>
-            </div>
+            <ul id="primaryNav">
+                <li class="nav-item"><a href="index.html" id="dinner-wheel">Dinner Wheel</a></li>
+                <li class="nav-item"><a href="test.html" id="current-menu">Current Menu</a></li>
+                <li class="nav-item"><a href="recipes.html" id="recipes">Recipes</a></li>
+            </ul>
+        </div>
     </nav>
 
 
@@ -48,12 +56,12 @@
     <div class="row limited">
     <section class="recipe column small-6 medium-4 large-3"> 
         <h3>Salisbury Steak <input type="checkbox" name="SalisburySteak"></h3>
-        <input type="checkbox" name="SalisburySteak"><img class="recipe-img" src="images/salisburySteak-min.jpg" alt="Salisbury Steak">
+        <input type="checkbox" name=""><img class="recipe-img" src="images/salisburySteak-min.jpg" alt="Salisbury Steak">
         <p>Recipe goes here? Unordered list?</p>
     </section>
     <section class="column small-6 medium-4 large-3"> 
         <h3>Beef Stew <input type="checkbox" name="Beef Stew"></h3>
-        <img class="recipe-img" src="images/beefStew-min.jpg" alt="Beef Stew">
+        <input type="checkbox" name=""><img class="recipe-img" src="images/beefStew-min.jpg" alt="Beef Stew">
         <p>Recipe goes here? Unordered list?</p>
     </section>
     <section class="column small-6 medium-4 large-3"> 
@@ -98,5 +106,13 @@
     </section>
     </div>
     </main>
+
+
+
+    <footer>
+        <p>&copy; Ryan Menning</p>
+        <ul><a href="#" target="_blank">github</a></ul>
+        <i class="fab fa-github"></i>
+    </footer>
 </body>
 </html>
