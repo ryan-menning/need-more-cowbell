@@ -77,10 +77,16 @@ nav ul {display: none;}
 
 
 
+/*------- Recipe Page ------ */
 
+.recipe-img {
+    width: 250px;
+    height: 250px;
+}
 
-
-
+.row limited img:hover {
+    border: rgba(233, 10, 10, 0.2);
+}
 
 
 
