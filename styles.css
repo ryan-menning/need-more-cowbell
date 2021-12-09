@@ -7,6 +7,8 @@
 
 main {
     padding-top: 155px;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
@@ -46,7 +48,7 @@ header h2{
 }
 
 .column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
-.small {width: 100%;}
+.small-head {width: 100%;}
 
 
 /* GRID */

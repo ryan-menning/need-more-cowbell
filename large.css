@@ -1,6 +1,6 @@
 /* From Creating page layouts with CSS */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1080px) {
     
     .large-3 {width: 25%;}
 
@@ -9,7 +9,7 @@
         opacity: 0;
         position: absolute;
         top: 50%;
-        left: 58%;
+        left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;

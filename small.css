@@ -1,20 +1,27 @@
-/* From Creating page layouts with CSS */
-
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 560px) {
     
+    /* .row-limited {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+
     header h1 {font-size: 2.85rem;}
     header h2 {font-size: 1.5rem; }
     header img {height: 100px;}
     
+   .small {width: 50%;}
 
-   .medium-4 {width: 33%;}
-
-    .medium-4 {
+    .small {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
+    
+
 
    .middle {
     transition: .5s ease;
@@ -27,6 +34,8 @@
     text-align: center;
   }
 
+
+    
     nav button {display: none;}
     nav ul {display: block;}
     nav li {width: 25%; float: left;}
