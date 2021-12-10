@@ -42,4 +42,9 @@
         align-items: center;
         justify-content: center;
   }
+  
+  meal-container {width: 300px;}
+  footer {
+    margin-top: 50px;
+}
 }
