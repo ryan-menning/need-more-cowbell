@@ -2,35 +2,44 @@
 
 @media only screen and (min-width: 800px) {
     
-    header h1 {font-size: 2.85rem;}
-    header h2 {font-size: 1.5rem; }
-    header img {height: 100px;}
-    
+  /* ------Header------- */
+  
+  header {
+    background-color: #098824;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  } 
 
-   .medium-4 {width: 33%;}
+  header img {
+    float: left; 
+    height: 90px;
+    padding-right: 20px;
+  }
 
-    .medium-4 {
+  header h1, header h2 {
+    margin: 0;
+    color: #fff; 
+    font-weight: 300;
+    font-style: italic;
+  }
+  header h1 { 
+    padding: 8px 0 0 0; 
+    font-size: 35px;
+  }
+  header h2{
+    padding: 3px 0 0 0; 
+    font-size:25px;    
+  }
+
+  nav {top: 100px;}
+
+  .medium-4 {width: 33%;}
+
+  .medium-4 {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-
-   .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
   }
-
-    nav button {display: none;}
-    nav ul {display: block;}
-    nav li {width: 25%; float: left;}
-    
-    
-    
-} /* end of media query */
+}
