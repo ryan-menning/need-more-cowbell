@@ -26,5 +26,6 @@ basic understanding of HTML, JavaScript and CSS.
 - I'm not sure if the :hover selector counts towards anything. The recipe photos change as they are moused over. Not helpful for a touch screen I know.
 
 
-#### The photos used are a combination of personal photos and photos pulled from the internet. I did not get permission nor cite for some of the photos
-#### knowing that this project would not be released to the public. I hope that's not a big faux pas.
+### Notes
+    The photos used are a combination of personal photos and photos pulled from the internet. I did not get permission nor cite for some of the photos
+    knowing that this project would not be released to the public. I hope that's not a big faux pas.
