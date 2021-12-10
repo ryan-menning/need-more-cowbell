@@ -200,3 +200,103 @@ footer a:hover {
     width: 250px;
     height: 90px;
 }
+
+
+/* wheel */
+.wheel {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: F44336;
+    background-size: cover;
+}
+
+.mainbox {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+
+
+.box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 10px solid #098824;
+    overflow: hidden;
+}
+
+span {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.span1 {
+    background-color: #ffeb3b;
+    top: 190px;
+    left: 190px;
+}
+
+.span2 {
+    background-color: #41f368;
+    top: 0;
+    left: 0;
+}
+
+.span3 {
+    background-color: #dd6722;
+    top: 190px;
+    left: 0px;
+}
+
+.span4 {
+    background-color: #785f9c;
+    top: 0;
+    left: 190px;
+}
+
+.box2 {
+    width: 100%;
+    height: 100%;
+    /* transform: rotate(90deg);
+    transition: all ease 10s; */
+}
+.spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background-color: rgb(243, 134, 134);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.spin:active {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    animation: spin 3s infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes .box2 {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
+
