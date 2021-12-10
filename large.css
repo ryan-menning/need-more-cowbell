@@ -7,4 +7,16 @@
   nav button {display: none;}
   nav ul {display: block;}
   nav li {width: 33%; float: left;}
+  .menu {flex-direction: row;}
+
+  .meal-container {
+    width: 150px;
+    height: 150px;
+}
+
+.wheel-box {
+    width: 150px;
+    height: 150px;
+}
+
 } 
